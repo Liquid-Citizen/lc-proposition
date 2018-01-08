@@ -1,6 +1,6 @@
-# Liquid Citizen : Context API
+# Liquid Citizen : Proposition API
 
-This repository hosts the Liquid Citizen Context API, a building block of the Liquid Citizen project.
+This repository hosts the Liquid Citizen Proposition API, a building block of the Liquid Citizen project.
 
 Right now, it is just populated with the auth0 example express app for authorization over RS256 and a docker setup consisting two containers, one hosting the node/express app and one hosting a default mongodb installation, whose data is persisted in the ./data folder.
 
@@ -16,4 +16,4 @@ The sample includes these endpoints:
 
 ## Running the Sample With Docker
 
-In order to run the example with docker you need to have `docker` installed, then just run `docker-compose up`.
+In order to run the example with docker you need to have `docker` installed, then just run `docker-compose up`. If a container name is already in use, use: `docker rm [container ID]`
