@@ -52,5 +52,5 @@ app.use(function(err, req, res, next){
   return res.status(err.status).json({ message: err.message });
 });
 
-app.listen(3010);
-console.log('Listening on http://localhost:3010');
+app.listen(3011);
+console.log('Listening on http://localhost:3011');
